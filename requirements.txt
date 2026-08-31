@@ -1,0 +1,8 @@
+streamlit
+pandas
+groq
+openpyxl
+thefuzz
+python-Levenshtein
+plotly
+xlsxwriter

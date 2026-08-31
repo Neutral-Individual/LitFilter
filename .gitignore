@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+.env.*
+.venv/
+venv/
+ENV/
+env/
+*.csv
+*.xlsx
+.streamlit/
+.streamlit/secrets.toml
