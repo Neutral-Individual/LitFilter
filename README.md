@@ -1,4 +1,5 @@
 # LitFilter
+*Your literature review, minus the tedious part.*
 
 LitFilter is a Streamlit app for screening papers in a systematic literature review. You upload bibliographic CSVs (Scopus, IEEE, ACM, ScienceDirect, or similar), remove duplicates, apply keyword and domain filters, then score remaining papers for relevance with Groq (`qwen/qwen3.8-27b`). Results can be thresholded, exported, and summarized with PRISMA-style counts and a simple flow diagram.
 

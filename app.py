@@ -244,7 +244,7 @@ STEPS = [
 BATCH_SIZE = 5
 GROQ_MODEL = "qwen/qwen3.8-27b"
 GROQ_DAILY_TOKEN_LIMIT = 2_000_000
-CALL_DELAY_SECONDS = 2.0
+CALL_DELAY_SECONDS = 3.0
 MAX_RETRIES = 3
 TITLE_SIMILARITY_THRESHOLD = 90
 
@@ -1612,11 +1612,11 @@ def render_results() -> None:
 
 
 def main() -> None:
-    st.set_page_config(page_title="The Awesome Tool", page_icon="🔍", layout="wide")
+    st.set_page_config(page_title="LitFilter", page_icon="🔍", layout="wide")
     init_state()
 
     st.title("LitFilter")
-    st.caption("Literature review paper screening")
+    st.caption("Your literature review, minus the tedious part.")
     render_step_nav()
     st.divider()
 
